@@ -1,0 +1,8 @@
+# macOS
+.DS_Store
+
+# Obsidian app state / local workspace cache (not useful to reviewers)
+.obsidian/
+
+# Stray downloaded font, not GTM content
+raw/JetBrainsMono-2.304/
