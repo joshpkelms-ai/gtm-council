@@ -6,3 +6,6 @@
 
 # Stray downloaded font, not GTM content
 raw/JetBrainsMono-2.304/
+
+# Vault activity log: local only, never in the repo
+log.md
