@@ -1,44 +1,37 @@
 # gtm-council
 
-An inventory of GTM thought leadership, curated by hand by me (Josh Elms), source by
-source. Its two jobs: inform Claude of current best practice when it does GTM engineering
-work with me, and educate the team around me on how modern revenue teams actually operate.
+A curated knowledge base of go-to-market thought leadership, built by hand by Josh Elms,
+source by source. Its job is to give Claude accurate, current commercial context when it
+does GTM engineering work: a council of practitioners I picked deliberately and structured
+so an agent can reason over it and cite its way back to a named source every time.
 
-This is a working knowledge base, not a polished publication. I am sharing it privately as
-an example of the commercial context repositories I build.
+This is one example of how I build context for AI. I maintain others for internal products,
+services and processes, each assembled so an agent starts from the right ground truth and
+makes better informed, better grounded decisions rather than guessing from generic training
+data. The value in all of them is the same: curation and structure, not volume.
 
 ## Why it exists
 
-Generic GTM advice from a model's training data is average and often dated. This vault is
-the opposite: a small council of practitioners I picked deliberately, kept free of filler,
-and structured so an agent (or a colleague) can reason over it and cite its way back to a
-named source every time. The value is the curation and the structure, not the volume.
+Generic GTM advice from a model's training data is average and often dated. This vault is the
+opposite: a small, hand-picked council kept free of filler and structured so its knowledge
+stays retrievable, weighable, and traceable to a named source.
 
 ## How it is organised
 
-- `CLAUDE.md` - the operating constitution. It tells the agent who it is, how to weigh the
-  vault against outside knowledge, and the integrity rules that protect the curation
-  (raw is read only, provenance is never stripped, every change is logged).
-- `index.md` - the map. Every wiki page catalogued by type (expert, framework, concept,
-  play, tool, source, synthesis) with a one line summary. Read first.
-- `wiki/` - my synthesis. 150+ pages of derived work: what each practitioner argues, the
-  named frameworks and plays, and source pages that distil each original down to its
-  argument with full attribution (author and URL on every one).
-- `raw/` - the immutable source material the wiki is built from. Treated as read only so
-  the vault can always be rebuilt and every claim stays checkable against its origin.
-- `log.md` - the audit trail. What was ingested, how it was categorised, and the calls
-  made along the way.
+- `CLAUDE.md` - the operating constitution. Who the agent is, how it weighs the vault against
+  outside knowledge, and the integrity rules that protect the curation.
+- `index.md` - the map. Every page catalogued by type (expert, framework, concept, play,
+  tool, source, synthesis) with a one line summary. Read first.
+- `wiki/` - the synthesis. 150+ pages of distilled, cited analysis: what each practitioner
+  argues, the named frameworks and plays, and source pages that carry full attribution
+  (author and original URL on every one).
 
-## How to read it as a reviewer
+## How to read it
 
-Start with `CLAUDE.md` to see the operating principles, then `index.md` for the shape of
-the corpus, then open a few `wiki/` pages that interest you (the `synthesis-` and
-`concept-` pages show the reasoning best). `log.md` shows how the thing is maintained over
-time, including a worked example of catching a fabricated transcript before it entered the
-record.
+Start with `CLAUDE.md` for the operating principles, then `index.md` for the shape of the
+corpus, then open the `synthesis-` and `concept-` pages to see the reasoning.
 
 ## Provenance
 
-The `wiki/` pages are my own writing: transformative, cited commentary over third party
-material. The `raw/` folder holds the underlying sources for verification. Every source
-page names its author and links its original. Nothing here is presented as mine that is not.
+Every page is transformative, cited commentary over third party material: each source page
+names its author and links the original. Nothing here is presented as mine that is not.

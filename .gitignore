@@ -9,3 +9,7 @@ raw/JetBrainsMono-2.304/
 
 # Vault activity log: local only, never in the repo
 log.md
+
+# Source material and drop zone: kept local, not published (third-party verbatim)
+raw/
+Clippings/
